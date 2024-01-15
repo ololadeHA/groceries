@@ -3,5 +3,10 @@ $(document).ready(function() {
     const item1Input = $("input#item1").val();
     const item2Input = $("input#item2").val();
     const item3Input = $("input#item3").val();
-  })
+
+    $(".item2").text(item1Input);
+    $(".item2").text(item2Input);
+    $(".item2").text(item3Input);
+    
+    })
 })
