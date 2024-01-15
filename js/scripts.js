@@ -11,10 +11,6 @@ $(document).ready(function() {
     $("#review").show();
     $("#formOne").hide();
 
-    const items = [item1Input, item2Input, item3Input]
-    newItem = items.sort();
-    newItem = [];
-    newItem
 
     event.preventDefault()
 
