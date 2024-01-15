@@ -4,9 +4,19 @@ $(document).ready(function() {
     const item2Input = $("input#item2").val();
     const item3Input = $("input#item3").val();
 
-    $(".item2").text(item1Input);
+    $(".item1").text(item1Input);
     $(".item2").text(item2Input);
-    $(".item2").text(item3Input);
-    
+    $(".item3").text(item3Input);
+
+    $("#review").show();
+    $("#formOne").hide();
+
+    const items = [item1Input, item2Input, item3Input]
+    newItem = items.sort();
+    newItem = [];
+    newItem
+
+    event.preventDefault()
+
     })
 })

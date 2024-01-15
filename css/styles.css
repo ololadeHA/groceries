@@ -13,3 +13,12 @@
   margin-top: 30px;
   
 }
+
+#review{
+  background-color: red;
+  display: none; 
+  height: 22vh; 
+  margin-top: 200px;
+  justify-content: center;
+  align-items: center; 
+}
